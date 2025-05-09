@@ -13,17 +13,17 @@ const quizData = [
     "explanation": "This patient has a pH < 7.35 and elevated PCO2, consistent with respiratory acidosis. The near-normal HCO3− (26) suggests partial compensation, likely from chronic renal adaptation. In chronic respiratory acidosis, the kidneys reabsorb filtered HCO3− and generate new HCO3− via ammonium excretion. (A) Alkalosis is incorrect. (B) Bicarbonate would not be this high in acute changes. (C) Correct. (D) Inappropriate—hypoventilation worsens CO2 retention. (E) There's no metabolic component.)"
   },
   {
-    "question": "A 72-year-old woman with chronic diarrhea presents with fatigue and confusion. Arterial blood gas reveals: pH 7.20, PCO2 28 mmHg, HCO3− 12 mEq/L. Sodium is 138 mEq/L, chloride is 109 mEq/L. What is the most likely diagnosis and mechanism?",
-    "choices": [
-      "Metabolic alkalosis due to vomiting and volume contraction",
-      "Respiratory alkalosis from hyperventilation during anxiety",
-      "High anion gap metabolic acidosis due to lactic acidosis",
-      "Normal anion gap metabolic acidosis due to gastrointestinal bicarbonate loss",
-      "Chronic respiratory acidosis with renal bicarbonate retention"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The pH is low, HCO3− is low, and PCO2 is appropriately decreased (partial compensation), indicating metabolic acidosis. The anion gap = 138 – (109 + 12) = 17 → elevated, which supports a high anion gap acidosis (likely from lactic acid or ketoacids). However, the correct choice here (answer 4) would be normal anion gap metabolic acidosis due to diarrhea, a non-volatile acid loss where chloride increases to balance lost HCO3−. (1) Incorrect condition. (2) Does not fit ABG. (3) Misaligned with gap calc. (4) Correct.)"
-  },
+  "question": "A 58-year-old man with type 1 diabetes is brought to the emergency department with confusion and deep, rapid breathing. Labs show: pH 7.12, PCO2 22 mmHg, HCO3− 10 mEq/L, Na+ 140 mEq/L, Cl− 100 mEq/L, glucose 520 mg/dL. What is the most likely diagnosis and mechanism?",
+  "choices": [
+    "Respiratory alkalosis due to hyperventilation from anxiety",
+    "Metabolic alkalosis from prolonged vomiting",
+    "Normal anion gap metabolic acidosis due to renal tubular acidosis",
+    "High anion gap metabolic acidosis due to diabetic ketoacidosis",
+    "Chronic respiratory acidosis with renal compensation"
+  ],
+  "correctAnswer": 3,
+  "explanation": "This patient's ABG shows acidemia (pH 7.12) with low bicarbonate (10 mEq/L) and compensatory low PCO2 (22 mmHg), consistent with metabolic acidosis. The anion gap is calculated as 140 − (100 + 10) = 30, which is elevated. Combined with a high glucose and type 1 diabetes, the most likely cause is diabetic ketoacidosis (DKA), a form of high anion gap metabolic acidosis."
+},
   {
     "question": "A 36-year-old woman with type 1 diabetes presents with abdominal pain and Kussmaul respirations. Labs: pH 7.10, PCO2 22 mmHg, HCO3− 7 mEq/L, Na+ 135, Cl− 100. Which of the following best reflects the compensatory mechanism for this acid-base disturbance?",
     "choices": [
